@@ -7,7 +7,7 @@ Resources:
     Properties:
       InstanceType: ml.t3.medium
       RoleArn: !GetAtt Role.Arn
-      DefaultCodeRepository: https://github.com/aws-samples/amazon-sagemaker-visual-search
+      DefaultCodeRepository: https://github.com/S-U-N-I-L/aws-visual-search
 
   Role:
     Type: AWS::IAM::Role
